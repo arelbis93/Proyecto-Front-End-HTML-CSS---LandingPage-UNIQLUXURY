@@ -1,13 +1,8 @@
-@media(max-width:320px) {
-    .home_section__header {
-        height: 600px;
-        width: 428px;
-        display: flex;
-        align-items: flex-end;
-        justify-content: flex-start;
-        background: linear-gradient(270deg, rgba(8, 8, 8, 0) 0%, rgba(8, 5, 3, 0.5) 100%), url('/src/header/header.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+@media screen and (max-width: 600px) {
+    #logo_escritorio{
+        display: none;
+    }
+#logo_mobile {
+        display: block;
     }
 }
