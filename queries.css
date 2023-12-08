@@ -1,8 +1,242 @@
-@media screen and (max-width: 600px) {
-    #logo_escritorio{
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+
+    #logo_escritorio {
         display: none;
     }
-#logo_mobile {
+    
+    #logo_mobile {
+        width: 50px;
+        height: 50px;
         display: block;
+        background: url(/src/logo/logo.mobile.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+    }
+
+    .container_login {
+        display: none;
+    }
+
+    .container_menu a, .lineas {
+        display: none;
+    }
+
+    .home_section__header {
+        background: linear-gradient(270deg, rgba(8, 8, 8, 0) 0%, rgba(8, 5, 3, 0.5) 100%), url('/src/header/header.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+    }
+
+    .home_section_vertical_social {
+        display: none;
+    }
+    
+    .container_search {
+        width: fit-content;
+        position: absolute;
+        top: 100px;
+        right: 0px;
+    }
+
+    .input_search {
+        width: 300px;
+    }
+
+    .home_section__header .Container_title1 {
+        padding: 30px;
+        font-size: 28px;
+    }
+
+    .button_View_properties {
+        width: 250px;
+        padding: 15px 38px ;
+        cursor: pointer;
+    }
+
+    .icono-Rectangle {
+        width: 100%;
+        padding: 5px 70px;
+        display: block;
+    }
+
+    .section_1 {
+        margin-top: 40px;
+        padding: 0px;
+    }
+
+    .Container_sale {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2px;
+        
+    }
+
+    .container_galeria1 {
+        display: grid;
+        grid-template-columns: repeat(1fr, 1fr);
+        gap: 10px;
+        order: 1;
+    }
+
+    .button1_galeria1 {
+        border: none;
+        padding: 10px 10px;
+        cursor: pointer;
+    }
+
+    .button2_galeria2 {
+        border: none;
+        padding: 10px 10px;
+        cursor: pointer;
+    }
+
+
+    .textos1 {
+        padding: 10px;
+        place-content: center;
+    }
+
+    .foto1:hover p {
+        display: none;
+    }
+
+    .textos2 {
+        padding: 10px;
+        place-content: center;
+    }
+
+    .title_1 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .title_2 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .span1 {
+        color: var(--color-yellow);
+        font-size: 20px; 
+    }
+    .span2 {
+        color: var(--color-yellow);
+        font-size: 20px; 
+    }
+
+    .container_button1 {
+        padding-top: 0px;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .button_prev1 {
+        display: none;
+    }
+
+    .button_next1 {
+        display: none;
+    }
+
+    .button_prev2 {
+        display: none;
+    }
+
+    .button_next2 {
+        display: none;
+    }
+
+    .section_2 {
+        padding: 0px;
+    
+    }
+    .container_button2 {
+        padding-top: 0px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .container_galeria2 {
+        display: grid;
+        grid-template-columns: repeat(1fr, 1fr);
+        gap: 10px;
+    }
+
+    .button1_galeria1 {
+        border: none;
+        padding: 10px 10px;
+        cursor: pointer;
+    }
+
+    .foto2:hover p {
+        display: none;
+    }
+
+    .Container_rent {
+        grid-template-columns: 1fr;
+    }
+
+    .section_3 {
+        padding: 0px;
+    }
+
+    .container_galeria_Developments {
+        display: none;
+    }
+
+    .container_galeria_Developments_mobile {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        gap: 5px;
+        margin: 0px;
+    }
+    
+    .foto_4 {
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    .container_servicios {
+        grid-template-columns: 1fr;
+    }
+
+    .imagen_servicios {
+        display: grid;
+        order: 1;
+    }
+
+    .span4 {
+        font-size: 25px;
+    }
+
+    .title_h5 {
+        font-size: 30px;
+        padding: 10px 10px 0px 20px;
+        margin-bottom: 20px;
+        font-family: var(--font-family-Playfair-Display);
+    }
+    
+    .footer {
+        width: 100%;
+        height: 300px;
+        display: grid;
+    }
+
+    .container_footer {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .container_info {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
     }
 }
